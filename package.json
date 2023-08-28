@@ -1,0 +1,18 @@
+{
+  "name": "addon-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"cmake-js compile",
+    "postinstall": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cmake-js": "^7.2.1",
+    "node-addon-api": "^7.0.0"
+  }
+}
